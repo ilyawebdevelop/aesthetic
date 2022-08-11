@@ -11349,9 +11349,11 @@ h3 {
   height: 108px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 30px;
   position: relative;
   overflow: hidden;
+  transition: background-color 0.2s linear;
 }
 @media (max-width: 991px) {
   .intro-product__btn {
@@ -11379,15 +11381,14 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  backdrop-filter: blur(20px);
-  transition: opacity 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 .intro-product__btn:hover {
   opacity: 1;
 }
 .intro-product__btn:hover::after {
-  opacity: 0.7;
-  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 1;
 }
 .intro-product__btn img {
   position: relative;
