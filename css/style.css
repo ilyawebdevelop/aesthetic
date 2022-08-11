@@ -14205,9 +14205,9 @@ h3 {
   }
 }
 
-.commerce-order__agreement {
+#commerce-order__agreement {
   position: relative;
-  top: 4px;
+  top: 3px;
 }
 
 .commerce-order__agreement-link {
@@ -15814,11 +15814,10 @@ h3 {
     margin-left: 8px;
   }
 }
-@media (max-width: 575px) {
-  .modal-commerce .interests__item input {
-    position: relative;
-    top: 5px;
-  }
+.modal-commerce .interests__item input {
+  margin-right: 3px;
+  position: relative;
+  top: -2px;
 }
 .modal-commerce .footer-form__textarea {
   height: 150px;
@@ -15826,11 +15825,9 @@ h3 {
 .modal-commerce .footer-form__btn {
   width: 100%;
 }
-@media (max-width: 575px) {
-  .modal-commerce #modal-commerce-agree {
-    position: relative;
-    top: 2px;
-  }
+.modal-commerce #modal-commerce-agree {
+  position: relative;
+  top: 2px;
 }
 
 .modal-repair__container {
