@@ -11990,7 +11990,7 @@ h3 {
 }
 @media (max-width: 575px) {
   .intro-main__bar-descr {
-    max-width: 235px;
+    width: 235px;
   }
 }
 
