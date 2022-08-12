@@ -11327,9 +11327,9 @@ h3 {
   content: "";
   position: absolute;
   left: 0;
-  top: 4px;
-  width: 12px;
-  height: 12px;
+  top: 3px;
+  width: 10px;
+  height: 16px;
   background: url("../img/icons/btn-back.svg") no-repeat center center/cover;
 }
 @media (max-width: 1199px) {
@@ -13042,6 +13042,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 20px;
 }
 @media (max-width: 991px) {
   .catalog-proposition__content {
